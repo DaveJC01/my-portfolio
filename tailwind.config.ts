@@ -12,6 +12,12 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      boxShadow: {
+        'custom-red': '0 0 20px 10px rgba(90, 114, 36, 0.5)', // Sobra que rodea la esfera de la foto
+      },
+      backgroundImage: {
+        'hero-pattern': "url('/blob.png')",
+      },
     },
   },
   plugins: [],

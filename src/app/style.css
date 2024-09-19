@@ -1,0 +1,32 @@
+
+  
+  main {
+    transition: all 0.5ms;
+    overflow: hidden;
+    user-select: none;
+  }
+  
+
+  
+  li {
+  
+    cursor: pointer;
+    height: 30px;
+    transition: all;
+    display: flex;
+    justify-content: space-between;
+    user-select: none;
+  }
+  
+ 
+  
+  li.selected {
+    transition: all;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #726b6b8c;
+  }
+  
