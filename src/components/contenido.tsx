@@ -3,7 +3,7 @@
 export function Presentation() {
     return (
         <>
-            <div className="min-h-screen flex  flex-col-reverse justify-center items-center px-2 mx-auto max-w-7xl sm:px-6 lg:px-8 md:gap-72">
+            <div className="min-h-screen flex  flex-col-reverse justify-center sm:flex-row sm:justify-normal items-center px-2 mx-auto max-w-7xl sm:px-6 lg:px-8 md:gap-72">
                 <div className="mt-16 px-5 ">
                     <h1 className="leading-loose"> <span className="font-medium text-xl ">
                         Hola, mi nombre es</span> <br />   <span className="text-[#5a7224] text-4xl font-bold">Jean Carlos David</span></h1>
