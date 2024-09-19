@@ -1,18 +1,18 @@
 
-
+import DecodingText from "./nameDecoding"
 export function Presentation() {
     return (
         <>
             <div className="min-h-screen flex  flex-col-reverse justify-center sm:flex-row sm:justify-normal items-center px-2 mx-auto max-w-7xl sm:px-6 lg:px-8 md:gap-72">
                 <div className="mt-16 px-5 ">
                     <h1 className="leading-loose"> <span className="font-medium text-xl ">
-                        Hola, mi nombre es</span> <br />   <span className="text-[#5a7224] text-4xl font-bold">Jean Carlos David</span></h1>
+                        Hola, mi nombre es</span> <br />   <span className="text-[#5a7224] text-3xl sm:text-4xl font-bold"><DecodingText/></span></h1>
                     <h2 className="text-[#] text-2xl leading-10 font-semibold"> <span className="text-black">Soy </span>Desarrollador Front-End</h2>
-                    <p className="leading-normal pb-8 ">Me apasionan los retos de diseño de software me encanta<br className="hidden sm:block" />
+                    <p className="leading-normal pb-8 ">Me apasionan los retos de diseño de software me encanta <br className="hidden sm:block" />
                          aprender a realizar diseños UX/UI</p>
 
                         <button className="bg-[#5a7224] flex justify-center px-4 text-white sm:bg-transparent hover:bg-[#5a7224] sm:text-[#5a7224] hover:text-white py-2  border border-[#5a7224] hover:border-transparent rounded-lg sm:w-48">
-                            Descargar Cv
+                            Descargar CV
                         </button>
                 </div>
 

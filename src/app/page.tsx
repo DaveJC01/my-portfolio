@@ -19,7 +19,7 @@ export default function Home() {
         <Disclosure as="nav" className="bg-[#D5C6B4] fixed top-0 left-0 right-0  z-10 text-black ">
           <div className="px-2 mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div className="relative flex items-center justify-between h-16">
-              <div className="absolute inset-y-0 right-0  items-center sm:hidden">
+              <div className="absolute inset-y-0 right-0  items-center hidden">
 
                 <DisclosureButton className="bg-[#D5C6B4]  relative inline-flex items-center justify-center p-2 mt-3 rounded-md group   focus:outline-none focus:ring-2 focus:ring-inset">
                   {/* Mobile menu button */}
